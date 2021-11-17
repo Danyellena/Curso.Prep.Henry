@@ -1,0 +1,29 @@
+Homework: 02-JS-I
+1- * Variable: es un un contenedor de valores, que se ingresan a un programa. Pueder ser cualquier valor, en letras o números. Se aplica asi:
+
+ var edad = 47;
+ let nombre = "Daniela"; (tiene algunas diferencias a var, solo en la versión de JS ES6)
+ const colorpreferido = "blue"; (variable que no se  podra cambiear, solo en la versión de JS ES6)
+
+* Strings: es una cadena en bloque de letras, palabra, o varias palabras. El texto va entre comillas simples o dobles. Ejemplo:
+
+var nombreprovincia = "Cordoba";
+
+* Funciones (argumentos, `return`): basicamente son operaciones a realizar con las variables, podemos obtener ressultados como con una calculadora y muchas mas. Para ejecutar las funciones tenemos que decirlo lo que queremos que haga escribiendo argumentos, los argumentos son las oraciones que armamos con los operadores, las varibles para pedirle que hagan algo y nos devuelvan una respuesta o resultado. La declaracion  "return" devuelve un valor cada vez que se ejecuta la función. Ejemplo:
+funtion sumarDosNumeros (a, b){
+    var suma = a + b;
+    return suma;
+}  
+
+* Declaraciones `if`: es un operador de flujo, se utiliza cuando queremos que la fucion verifique que se cumpla una condicion y de acuerdo a eso haga alguna accion. Ejemplo:
+
+function mayorDeEdad (edad){
+    if (edad > 18) {
+        return true;
+    }
+    return false;
+}
+
+* Valores booleanos (`true`, `false`): proviene de la logica del codigo binario, significa que hay dos opciones, en JS los valores posibles son : true o false . Ejemplo:
+
+var cursoaprobado = true
